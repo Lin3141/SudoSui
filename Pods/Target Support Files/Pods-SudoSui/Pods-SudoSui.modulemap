@@ -1,6 +1,0 @@
-framework module Pods_SudoSui {
-  umbrella header "Pods-SudoSui-umbrella.h"
-
-  export *
-  module * { export * }
-}
