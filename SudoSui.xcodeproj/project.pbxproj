@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330777108B38B3E7DF02C3B9 /* Pods_SudoSui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486A2D03F05114616B1BDC32 /* Pods_SudoSui.framework */; };
+		BC380A1B2815DC00008557AD /* HospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC380A1A2815DC00008557AD /* HospitalViewController.swift */; };
+		BC44F6892814D31B00B47DF8 /* SafetyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44F6882814D31B00B47DF8 /* SafetyPlanViewController.swift */; };
+		BC7FBF42280E45030067BB49 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FBF41280E45030067BB49 /* StartPageViewController.swift */; };
+		BC7FBF44280E637E0067BB49 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FBF43280E637E0067BB49 /* HelpViewController.swift */; };
+		BC7FBF47280E79710067BB49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FBF45280E79710067BB49 /* HomeViewController.swift */; };
+		BC823DC3280F942200B572BC /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC823DC2280F942200B572BC /* DiaryViewController.swift */; };
+		BC8D87C728146E8A00850C29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC8D87C628146E8A00850C29 /* GoogleService-Info.plist */; };
+		BC9372AC2810FD3100A67ECD /* Dairy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9372AB2810FD3100A67ECD /* Dairy.swift */; };
+		BCA6B20227F4EF8300A714F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B20127F4EF8300A714F7 /* AppDelegate.swift */; };
+		BCA6B20427F4EF8300A714F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B20327F4EF8300A714F7 /* SceneDelegate.swift */; };
+		BCA6B20627F4EF8300A714F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B20527F4EF8300A714F7 /* LoginViewController.swift */; };
+		BCA6B20927F4EF8300A714F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6B20727F4EF8300A714F7 /* Main.storyboard */; };
+		BCA6B20B27F4EF8400A714F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6B20A27F4EF8400A714F7 /* Assets.xcassets */; };
+		BCA6B20E27F4EF8400A714F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6B20C27F4EF8400A714F7 /* LaunchScreen.storyboard */; };
+		BCB49FCE2818D03A0002EFC7 /* HospitalDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB49FCD2818D03A0002EFC7 /* HospitalDataStructure.swift */; };
+		BCB49FD02818D2730002EFC7 /* HospitalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB49FCF2818D2730002EFC7 /* HospitalData.swift */; };
+		BCB49FD22818D5260002EFC7 /* HospitalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB49FD12818D5260002EFC7 /* HospitalDataModel.swift */; };
+		BCB49FD62818E9F20002EFC7 /* HospitalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB49FD52818E9F20002EFC7 /* HospitalCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		486A2D03F05114616B1BDC32 /* Pods_SudoSui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudoSui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2F378F21C32BD60B030972 /* Pods-SudoSui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoSui.release.xcconfig"; path = "Target Support Files/Pods-SudoSui/Pods-SudoSui.release.xcconfig"; sourceTree = "<group>"; };
+		BC380A1A2815DC00008557AD /* HospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalViewController.swift; sourceTree = "<group>"; };
+		BC44F6882814D31B00B47DF8 /* SafetyPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyPlanViewController.swift; sourceTree = "<group>"; };
+		BC7FBF41280E45030067BB49 /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
+		BC7FBF43280E637E0067BB49 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		BC7FBF45280E79710067BB49 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC823DC2280F942200B572BC /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		BC8D87C628146E8A00850C29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC9372AB2810FD3100A67ECD /* Dairy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dairy.swift; sourceTree = "<group>"; };
+		BCA6B1FE27F4EF8300A714F7 /* SudoSui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudoSui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA6B20127F4EF8300A714F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA6B20327F4EF8300A714F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCA6B20527F4EF8300A714F7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BCA6B20827F4EF8300A714F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA6B20A27F4EF8400A714F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA6B20D27F4EF8400A714F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA6B20F27F4EF8400A714F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB49FCD2818D03A0002EFC7 /* HospitalDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDataStructure.swift; sourceTree = "<group>"; };
+		BCB49FCF2818D2730002EFC7 /* HospitalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalData.swift; sourceTree = "<group>"; };
+		BCB49FD12818D5260002EFC7 /* HospitalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDataModel.swift; sourceTree = "<group>"; };
+		BCB49FD52818E9F20002EFC7 /* HospitalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB0EF3CC4234E8C25792F9A8 /* Pods-SudoSui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudoSui.debug.xcconfig"; path = "Target Support Files/Pods-SudoSui/Pods-SudoSui.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA6B1FB27F4EF8300A714F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330777108B38B3E7DF02C3B9 /* Pods_SudoSui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA2190D54C55CDE57DF59B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				486A2D03F05114616B1BDC32 /* Pods_SudoSui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACE521344FC9E221A5A0D22B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB0EF3CC4234E8C25792F9A8 /* Pods-SudoSui.debug.xcconfig */,
+				5D2F378F21C32BD60B030972 /* Pods-SudoSui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC999D3E27F5784F009D2A41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC9372AB2810FD3100A67ECD /* Dairy.swift */,
+				BCB49FCD2818D03A0002EFC7 /* HospitalDataStructure.swift */,
+				BCB49FCF2818D2730002EFC7 /* HospitalData.swift */,
+				BCB49FD12818D5260002EFC7 /* HospitalDataModel.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BCA6B1F527F4EF8300A714F7 = {
+			isa = PBXGroup;
+			children = (
+				BCA6B20027F4EF8300A714F7 /* SudoSui */,
+				BCA6B1FF27F4EF8300A714F7 /* Products */,
+				ACE521344FC9E221A5A0D22B /* Pods */,
+				7FA2190D54C55CDE57DF59B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA6B1FF27F4EF8300A714F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6B1FE27F4EF8300A714F7 /* SudoSui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA6B20027F4EF8300A714F7 /* SudoSui */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6B20127F4EF8300A714F7 /* AppDelegate.swift */,
+				BCA6B20327F4EF8300A714F7 /* SceneDelegate.swift */,
+				BCA6B21527F4EFA900A714F7 /* Controller */,
+				BCA6B21627F4EFB200A714F7 /* View */,
+				BC999D3E27F5784F009D2A41 /* Model */,
+				BCA6B20C27F4EF8400A714F7 /* LaunchScreen.storyboard */,
+				BCA6B20A27F4EF8400A714F7 /* Assets.xcassets */,
+				BCA6B20F27F4EF8400A714F7 /* Info.plist */,
+				BC8D87C628146E8A00850C29 /* GoogleService-Info.plist */,
+			);
+			path = SudoSui;
+			sourceTree = "<group>";
+		};
+		BCA6B21527F4EFA900A714F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6B20527F4EF8300A714F7 /* LoginViewController.swift */,
+				BC7FBF41280E45030067BB49 /* StartPageViewController.swift */,
+				BC7FBF43280E637E0067BB49 /* HelpViewController.swift */,
+				BC7FBF45280E79710067BB49 /* HomeViewController.swift */,
+				BC823DC2280F942200B572BC /* DiaryViewController.swift */,
+				BC44F6882814D31B00B47DF8 /* SafetyPlanViewController.swift */,
+				BC380A1A2815DC00008557AD /* HospitalViewController.swift */,
+				BCB49FD52818E9F20002EFC7 /* HospitalCollectionViewCell.swift */,
+				BCA6B20727F4EF8300A714F7 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCA6B21627F4EFB200A714F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA6B1FD27F4EF8300A714F7 /* SudoSui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA6B21227F4EF8400A714F7 /* Build configuration list for PBXNativeTarget "SudoSui" */;
+			buildPhases = (
+				E9CA94A9C718EA2511DE5094 /* [CP] Check Pods Manifest.lock */,
+				BCA6B1FA27F4EF8300A714F7 /* Sources */,
+				BCA6B1FB27F4EF8300A714F7 /* Frameworks */,
+				BCA6B1FC27F4EF8300A714F7 /* Resources */,
+				1BB00405FC5C93EAF15D75D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudoSui;
+			productName = SudoSui;
+			productReference = BCA6B1FE27F4EF8300A714F7 /* SudoSui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA6B1F627F4EF8300A714F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BCA6B1FD27F4EF8300A714F7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BCA6B1F927F4EF8300A714F7 /* Build configuration list for PBXProject "SudoSui" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA6B1F527F4EF8300A714F7;
+			productRefGroup = BCA6B1FF27F4EF8300A714F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA6B1FD27F4EF8300A714F7 /* SudoSui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA6B1FC27F4EF8300A714F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA6B20E27F4EF8400A714F7 /* LaunchScreen.storyboard in Resources */,
+				BC8D87C728146E8A00850C29 /* GoogleService-Info.plist in Resources */,
+				BCA6B20B27F4EF8400A714F7 /* Assets.xcassets in Resources */,
+				BCA6B20927F4EF8300A714F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BB00405FC5C93EAF15D75D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoSui/Pods-SudoSui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudoSui/Pods-SudoSui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudoSui/Pods-SudoSui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9CA94A9C718EA2511DE5094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudoSui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA6B1FA27F4EF8300A714F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB49FD62818E9F20002EFC7 /* HospitalCollectionViewCell.swift in Sources */,
+				BC380A1B2815DC00008557AD /* HospitalViewController.swift in Sources */,
+				BCA6B20627F4EF8300A714F7 /* LoginViewController.swift in Sources */,
+				BCA6B20227F4EF8300A714F7 /* AppDelegate.swift in Sources */,
+				BCA6B20427F4EF8300A714F7 /* SceneDelegate.swift in Sources */,
+				BCB49FD22818D5260002EFC7 /* HospitalDataModel.swift in Sources */,
+				BC823DC3280F942200B572BC /* DiaryViewController.swift in Sources */,
+				BC44F6892814D31B00B47DF8 /* SafetyPlanViewController.swift in Sources */,
+				BC7FBF44280E637E0067BB49 /* HelpViewController.swift in Sources */,
+				BCB49FD02818D2730002EFC7 /* HospitalData.swift in Sources */,
+				BC7FBF42280E45030067BB49 /* StartPageViewController.swift in Sources */,
+				BC7FBF47280E79710067BB49 /* HomeViewController.swift in Sources */,
+				BCB49FCE2818D03A0002EFC7 /* HospitalDataStructure.swift in Sources */,
+				BC9372AC2810FD3100A67ECD /* Dairy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCA6B20727F4EF8300A714F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA6B20827F4EF8300A714F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA6B20C27F4EF8400A714F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA6B20D27F4EF8400A714F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA6B21027F4EF8400A714F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA6B21127F4EF8400A714F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA6B21327F4EF8400A714F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0EF3CC4234E8C25792F9A8 /* Pods-SudoSui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SudoSui/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchen.SudoSui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA6B21427F4EF8400A714F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2F378F21C32BD60B030972 /* Pods-SudoSui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SudoSui/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchen.SudoSui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA6B1F927F4EF8300A714F7 /* Build configuration list for PBXProject "SudoSui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA6B21027F4EF8400A714F7 /* Debug */,
+				BCA6B21127F4EF8400A714F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA6B21227F4EF8400A714F7 /* Build configuration list for PBXNativeTarget "SudoSui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA6B21327F4EF8400A714F7 /* Debug */,
+				BCA6B21427F4EF8400A714F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA6B1F627F4EF8300A714F7 /* Project object */;
+}
